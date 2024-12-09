@@ -1,0 +1,33 @@
+/* Optimize styles for better performance */
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #edf2f4;
+}
+
+app-image {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+app-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+app-button {
+  padding: 0.5rem 1rem;
+  background-color: #ef233c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #2b2d42;
+  }
+}

@@ -1,0 +1,10 @@
+<app-illustration
+  [illustration]="'/assets/illustrations/error.svg'"
+></app-illustration>
+<app-error-message
+  [message]="'Op dit moment vindt er geen conversatie plaats.'"
+></app-error-message>
+<app-action-button
+  [label]="'Bekijk je groep'"
+  (click)="navigateToGroup()"
+></app-action-button>

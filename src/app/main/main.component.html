@@ -1,0 +1,15 @@
+<div>
+  <app-image
+    [src]="'/assets/images/conversation.svg'"
+    [alt]="'Conversation illustration'"
+  ></app-image>
+  <app-text
+    [text]="'Op dit moment vindt er geen conversatie plaats.'"
+    [classes]="['main-text']"
+  ></app-text>
+  <app-button
+    [text]="'Vraag je vriend'"
+    [classes]="['primary-button']"
+    (click)="handleButtonClick()"
+  ></app-button>
+</div>
